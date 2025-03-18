@@ -1,0 +1,62 @@
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+
+# Dependencies
+node_modules/
+vendor/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+config.json
+secrets.json
+credentials.json
+
+# Security and keys
+*.pem
+*.key
+*.cert
+*.crt
+*.csr
+*.p12
+*.pfx
+id_rsa
+id_dsa
+*.pub
+.ssh/
+keystore/
+*.keystore
+*.jks
+
+# Build output
+dist/
+build/
+out/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# WeChat related
+WeChatSetup*.exe
+WeChatFerry*/
+wechat_bot_package*/
+
+# Other sensitive data
+*_private*
+*_secret*
+*_key*
+*_token*
+*_password*
+*_credential*
+*_auth*
+*_config*
+.npmrc
+.yarnrc
+*.gpg
+*.asc 
